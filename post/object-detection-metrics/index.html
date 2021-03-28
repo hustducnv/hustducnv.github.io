@@ -15,15 +15,15 @@
     
 
     
-    <meta name="title" content="Testpage" />
-    <meta property="og:title" content="Testpage" />
-    <meta property="twitter:title" content="Testpage" />
+    <meta name="title" content="Metrics for Object Detection" />
+    <meta property="og:title" content="Metrics for Object Detection" />
+    <meta property="twitter:title" content="Metrics for Object Detection" />
     
 
     
-    <meta name="description" content="">
-    <meta property="og:description" content="" />
-    <meta property="twitter:description" content="" />
+    <meta name="description" content="Độ đo đánh giá object detection model">
+    <meta property="og:description" content="Độ đo đánh giá object detection model" />
+    <meta property="twitter:description" content="Độ đo đánh giá object detection model" />
     
 
     
@@ -34,9 +34,9 @@
     <meta name="keyword"  content="Tensorflow, Pytorch, Python, Java, Programming, Algorithms, Linux">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Testpage-Duc Nguyen Blog</title>
+    <title>Metrics for Object Detection-Duc Nguyen Blog</title>
 
-    <link rel="canonical" href="/post/testpage/">
+    <link rel="canonical" href="/post/object-detection-metrics/">
 
     <link rel="stylesheet" href="/css/iDisqus.min.css"/>
 	
@@ -157,8 +157,16 @@
                 <div class="post-heading">
                     <div class="tags">
                         
+                        <a class="tag" href="/tags/computer-vision" title="Computer Vision">
+                            Computer Vision
+                        </a>
+                        
+                        <a class="tag" href="/tags/object-detection" title="Object Detection">
+                            Object Detection
+                        </a>
+                        
                     </div>
-                    <h1>Testpage</h1>
+                    <h1>Metrics for Object Detection</h1>
                     <h2 class="subheading"></h2>
                     <span class="meta">
                         Posted by 
@@ -194,20 +202,53 @@
                 <header>
                     <h2>TOC</h2>
                 </header>
-                <nav id="TableOfContents"></nav>
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#different-competitions-different-metrics">Different competitions, different metrics</a></li>
+    <li><a href="#important-definitions">Important definitions</a>
+      <ul>
+        <li><a href="#intersection-over-union-iou">Intersection Over Union (IOU)</a></li>
+        <li><a href="#true-positive-false-positive-false-negative-and-true-negative">True Positive, False Positive, False Negative and True Negative</a></li>
+        <li><a href="#precision">Precision</a></li>
+        <li><a href="#recall">Recall</a></li>
+      </ul>
+    </li>
+    <li><a href="#metrics">Metrics</a>
+      <ul>
+        <li><a href="#precision-x-recall-curve">Precision x Recall curve</a></li>
+        <li><a href="#average-precision">Average Precision</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
                 
-                <h1 id="descriptive-text-here">Descriptive text here&hellip;</h1>
+                <h2 id="different-competitions-different-metrics">Different competitions, different metrics</h2>
+<ul>
+<li><strong><a href="http://host.robots.ox.ac.uk/pascal/VOC/">PASCAL VOC Challenge</a></strong></li>
+<li><strong><a href="https://competitions.codalab.org/competitions/5181">COCO Detection Challenge</a></strong></li>
+<li><strong><a href="https://competitions.codalab.org/competitions/5181">Google Open Images Dataset V4 Competition</a></strong></li>
+<li><strong><a href="https://competitions.codalab.org/competitions/5181">ImageNet Object Localization Challenge</a></strong></li>
+</ul>
+<h2 id="important-definitions">Important definitions</h2>
+<h3 id="intersection-over-union-iou">Intersection Over Union (IOU)</h3>
+<h3 id="true-positive-false-positive-false-negative-and-true-negative">True Positive, False Positive, False Negative and True Negative</h3>
+<h3 id="precision">Precision</h3>
+<h3 id="recall">Recall</h3>
+<h2 id="metrics">Metrics</h2>
+<h3 id="precision-x-recall-curve">Precision x Recall curve</h3>
+<h3 id="average-precision">Average Precision</h3>
+
 
                 
 
                 <hr>
                 <ul class="pager">
                     
-                    
-                    <li class="next">
-                        <a href="/post/object-detection-metrics/" data-toggle="tooltip" data-placement="top" title="Metrics for Object Detection">Next
-                            Post &rarr;</a>
+                    <li class="previous">
+                        <a href="/post/testpage/" data-toggle="tooltip" data-placement="top" title="Testpage">&larr;
+                            Previous Post</a>
                     </li>
+                    
                     
                 </ul>
 

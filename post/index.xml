@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Nguyen Van Duc</title>
+    <title>Posts on Ducnv</title>
     <link>http://hustducnv.github.io/post/</link>
-    <description>Recent content in Posts on Nguyen Van Duc</description>
+    <description>Recent content in Posts on Ducnv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://hustducnv.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Mar 2021 17:36:18 +0700</lastBuildDate><atom:link href="http://hustducnv.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>An Example Post</title>
+      <title>Metrics for Object Detection</title>
+      <link>http://hustducnv.github.io/post/object-detection-metrics/</link>
+      <pubDate>Sun, 28 Mar 2021 17:36:18 +0700</pubDate>
+      
+      <guid>http://hustducnv.github.io/post/object-detection-metrics/</guid>
+      <description>Different competitions, different metrics  PASCAL VOC Challenge COCO Detection Challenge Google Open Images Dataset V4 Competition ImageNet Object Localization Challenge  Important definitions Intersection Over Union (IOU) True Positive, False Positive, False Negative and True Negative Precision Recall Metrics Precision x Recall curve Average Precision </description>
+    </item>
+    
+    <item>
+      <title>Testpage</title>
       <link>http://hustducnv.github.io/post/testpage/</link>
-      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 28 Mar 2021 16:58:02 +0700</pubDate>
       
       <guid>http://hustducnv.github.io/post/testpage/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;descriptive-text-here&#34;&gt;Descriptive text here&amp;hellip;&lt;/h1&gt;</description>
     </item>
     
   </channel>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Nguyen Van Duc</title>
+    <title>Categories on Ducnv</title>
     <link>http://hustducnv.github.io/categories/</link>
-    <description>Recent content in Categories on Nguyen Van Duc</description>
+    <description>Recent content in Categories on Ducnv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://hustducnv.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Mar 2021 17:36:18 +0700</lastBuildDate><atom:link href="http://hustducnv.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Tech</title>
-      <link>http://hustducnv.github.io/categories/tech/</link>
-      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      <title>Computer Vision</title>
+      <link>http://hustducnv.github.io/categories/computer-vision/</link>
+      <pubDate>Sun, 28 Mar 2021 17:36:18 +0700</pubDate>
       
-      <guid>http://hustducnv.github.io/categories/tech/</guid>
+      <guid>http://hustducnv.github.io/categories/computer-vision/</guid>
       <description></description>
     </item>
     
